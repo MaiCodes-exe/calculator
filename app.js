@@ -3,6 +3,5 @@ const keys = calculator.querySelector('.calculator_keys')
 
 keys.addEventListener('click', e => {
  if (e.target.matches('button')) {
-   // Do something
  }
 })
