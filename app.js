@@ -9,3 +9,7 @@ keys.addEventListener('click', e => {
 
 const key = e.target
 const action = key.dataset.action
+
+if (!action) {
+    console.log('number key!')
+  }
