@@ -10,5 +10,9 @@ color: white;
 
 #box{
   width: 300px;
-  
+
+}
+
+.body{
+  background-color: red;
 }
