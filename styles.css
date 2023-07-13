@@ -1,3 +1,12 @@
 .calculator__keys { 
     display: grid; 
   }
+
+
+.calculator{
+background-color: black;
+color: white;
+  }
+
+
+  
