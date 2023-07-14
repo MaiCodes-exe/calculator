@@ -1,4 +1,4 @@
-#calculator__keys { 
+.calculator__keys { 
     display: grid; 
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: 40px 40px 40px; 
@@ -7,14 +7,14 @@
   }
 
 
-#calculator{
+.calculator{
 background-color: black;
 color: white;
 height: 100px;
 width: 400px;
   }
 
-#box{
+.box{
   width: 400px;
   height: 300px;
 background-color: red;
