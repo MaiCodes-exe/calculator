@@ -25,3 +25,11 @@ function divide() {
 function clearDisplay() {
   display.value = '';
 }
+
+
+
+// Function to evaluate the expression and display the result
+// function calculate() {
+//   const result = eval(display.value);
+//   display.value = result;
+// }
