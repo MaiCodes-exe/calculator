@@ -20,3 +20,8 @@ function multiply() {
 function divide() {
   display.value += '/';
 }
+
+
+function clearDisplay() {
+  display.value = '';
+}
