@@ -11,10 +11,10 @@
     <div class="box">
         <input type="text" id="display" disabled>
         <div class='calculator__keys'>
-            <button class="key--operator" data-action="add">+</button>
-            <button class="key--operator" data-action="subtract">-</button>
-            <button class="key--operator" data-action="multiply">&times;</button>
-            <button class="key--operator" data-action="divide">÷</button>
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">&times;</button>
+            <button onclick="divide()">÷</button>
 
             <button onclick="appendNumber(7)">7</button>
             <button onclick="appendNumber(8)">8</button>
@@ -27,9 +27,8 @@
             <button onclick="appendNumber(2)">2</button>
             <button onclick="appendNumber(3)">3</button>
             <button data-action="decimal">.</button>
-            <button data-action="clear">AC</button>
-            <button>0</button>
-            <button class="key--equal" data-action="calculate">=</button>
+            <button onclick="clearDisplay()">AC</button>
+            <button onclick="calculate()">=</button>
     </div>
 </div>  
 <script src="script.js"></script>
