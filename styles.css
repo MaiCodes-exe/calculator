@@ -3,6 +3,7 @@
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 40px 40px 40px; 
     justify-items: stretch;
+    font-weight: 300;
 
   }
 
