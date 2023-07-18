@@ -1,7 +1,7 @@
 .calculator__keys { 
     display: grid; 
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 30px 40px 40px; 
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 40px 40px 40px; 
     justify-items: stretch;
 
   }
