@@ -28,8 +28,8 @@ function clearDisplay() {
 
 
 
-// Function to evaluate the expression and display the result
-// function calculate() {
-//   const result = eval(display.value);
-//   display.value = result;
-// }
+// displaying the result
+function calculate() {
+  const result = eval(display.value);
+  display.value = result;
+}
