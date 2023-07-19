@@ -17,9 +17,14 @@ background: bisque;
 
   .buttons button{
     padding: 10px;
-    border-radius: 15px;
     font-size: 20px;
+    border:none;
     
+  }
+
+  .button{
+    border-radius: 15px;
+
   }
 
 #display{
